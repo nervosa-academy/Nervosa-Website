@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+:root {
+  --nervosa-bg: #1a1e24;
+  --nervosa-text: #ffffff;
+  --nervosa-accent: #2fd4c6;
+  --nervosa-card: #222831;
+}
+
+@theme inline {
+  --color-nervosa-bg: var(--nervosa-bg);
+  --color-nervosa-text: var(--nervosa-text);
+  --color-nervosa-accent: var(--nervosa-accent);
+  --color-nervosa-card: var(--nervosa-card);
+}
+
+body {
+  background: var(--nervosa-bg);
+  color: var(--nervosa-text);
+  font-family: var(--font-montserrat), system-ui, sans-serif;
+}
